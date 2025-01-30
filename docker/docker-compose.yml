@@ -61,7 +61,7 @@ services:
         ports:
             - "${OLLAMA_PORT}:${OLLAMA_PORT}"
         networks:
-            - app-network 
+            - app-network
         volumes:
             - ~/.ollama:/root/.ollama
         restart: always
